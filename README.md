@@ -2,14 +2,6 @@
 
 BAGEMO is a genetics module for Python.  It is made to simplify multiple Computational Biology Tasks. Includes multiple functions intended for decoding, translation, and multiple function regarding genetics and heredity.
 
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
-
 ## Usage
 
 ```python
