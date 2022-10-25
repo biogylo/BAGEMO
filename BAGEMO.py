@@ -50,6 +50,7 @@ def CountBases(string):
         elif char == 'T' or char == 'U':
             t+=1
     return str(a)+" "+str(c)+" "+str(g)+" "+str(t)
+
 def DNAtoRNA(string):
     #translates a string of DNA into a string of RNA (Tymine to Uracyl)
     string = list(string)
@@ -57,11 +58,13 @@ def DNAtoRNA(string):
         if string[i] == 'T':
             string[i] = 'U'
     return "".join(string)
+
 def ReverseComplement(string):
-    string = list(string[::-1])
     for i in range(len(string)):
         string[i] = BaseComplements[string[i]]
+        string[i+1] = "Hello world"
     return "".join(string)
+
 def RNAtoProtein(string):
     protein = []
     for i in range(0,len(string),3):
